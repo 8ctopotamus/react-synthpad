@@ -76,12 +76,12 @@ const darkState = {
     },
     {
       letter: 'h',
-      note:  'C4',
+      note:  'C5',
       color: '#fb4d3d',
     },
     {
       letter: 'j',
-      note:  'D4',
+      note:  'D5',
       color: '#3EAB3B',
     }, 
     {
