@@ -41,8 +41,6 @@ const extendedIonian = {
             note: 'C4',
             color: '#87FF65',
         },
-
-
         {
             letter: 'a',
             note: 'C4',
@@ -125,13 +123,13 @@ const extendedIonian = {
         }
     ]
 }
-const extendedDorian = {//TODO:
+const extendedDorian = {
     mode: 'dark',
     notes: [
         {
             letter: 'z',
             note: 'C3',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'x',
@@ -140,7 +138,7 @@ const extendedDorian = {//TODO:
         },
         {
             letter: 'c',
-            note: 'E3',
+            note: 'Eb3',
             color: '#651e3e',
         },
         {
@@ -160,18 +158,13 @@ const extendedDorian = {//TODO:
         },
         {
             letter: 'm',
-            note: 'B3',
+            note: 'Bb3',
             color: '#3EAB3B',
         },
         {
             letter: ',',
             note: 'C4',
             color: '#03cea4',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#251e3e',
         },
         {
             letter: 'a',
@@ -185,7 +178,7 @@ const extendedDorian = {//TODO:
         },
         {
             letter: 'd',
-            note: 'E4',
+            note: 'Eb4',
             color: '#651e3e',
         },
         {
@@ -205,7 +198,7 @@ const extendedDorian = {//TODO:
         },
         {
             letter: 'j',
-            note: 'B4',
+            note: 'Bb4',
             color: '#3EAB3B',
         },
         {
@@ -216,7 +209,7 @@ const extendedDorian = {//TODO:
         {
             letter: 'q',
             note: 'C5',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'w',
@@ -225,7 +218,7 @@ const extendedDorian = {//TODO:
         },
         {
             letter: 'e',
-            note: 'E5',
+            note: 'Eb5',
             color: '#651e3e',
         },
         {
@@ -245,7 +238,7 @@ const extendedDorian = {//TODO:
         },
         {
             letter: 'u',
-            note: 'B5',
+            note: 'Bb5',
             color: '#3EAB3B',
         },
         {
@@ -255,22 +248,22 @@ const extendedDorian = {//TODO:
         }
     ]
 }
-const extendedPhrygian = {//TODO:
+const extendedPhrygian = {
     mode: 'dark',
     notes: [
         {
             letter: 'z',
             note: 'C3',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'x',
-            note: 'D3',
+            note: 'Db3',
             color: '#451e3e',
         },
         {
             letter: 'c',
-            note: 'E3',
+            note: 'Eb3',
             color: '#651e3e',
         },
         {
@@ -285,12 +278,12 @@ const extendedPhrygian = {//TODO:
         },
         {
             letter: 'n',
-            note: 'A3',
+            note: 'Ab3',
             color: '#fb4d3d',
         },
         {
             letter: 'm',
-            note: 'B3',
+            note: 'Bb3',
             color: '#3EAB3B',
         },
         {
@@ -301,21 +294,16 @@ const extendedPhrygian = {//TODO:
         {
             letter: 'a',
             note: 'C4',
-            color: '#251e3e',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
             color: '#345995',
         },
         {
             letter: 's',
-            note: 'D4',
+            note: 'Db4',
             color: '#451e3e',
         },
         {
             letter: 'd',
-            note: 'E4',
+            note: 'Eb4',
             color: '#651e3e',
         },
         {
@@ -330,12 +318,12 @@ const extendedPhrygian = {//TODO:
         },
         {
             letter: 'h',
-            note: 'A4',
+            note: 'Ab4',
             color: '#fb4d3d',
         },
         {
             letter: 'j',
-            note: 'B4',
+            note: 'Bb4',
             color: '#3EAB3B',
         },
         {
@@ -346,16 +334,16 @@ const extendedPhrygian = {//TODO:
         {
             letter: 'q',
             note: 'C5',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'w',
-            note: 'D5',
+            note: 'Db5',
             color: '#451e3e',
         },
         {
             letter: 'e',
-            note: 'E5',
+            note: 'Eb5',
             color: '#651e3e',
         },
         {
@@ -370,12 +358,12 @@ const extendedPhrygian = {//TODO:
         },
         {
             letter: 'y',
-            note: 'A5',
+            note: 'Ab5',
             color: '#fb4d3d',
         },
         {
             letter: 'u',
-            note: 'B5',
+            note: 'Bb5',
             color: '#3EAB3B',
         },
         {
@@ -1686,5 +1674,8 @@ const extended5thModeHarmonicMinor = {//TODO:
     ]
 }
 export default {
-    extendedIonian
+    extendedIonian,
+    extendedDorian,
+    extendedPhrygian,
+
 }

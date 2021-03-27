@@ -95,11 +95,20 @@ const darkState = {
 const AppContext = createContext(lightState)
 const { Provider } = AppContext
 
+const payloadMap = {
+  "light": lightState,
+  "dark": darkState,
+  "Ionian": thesarusScales.extendedIonian,
+  "Dorian": thesarusScales.extendedDorian,
+  "Phrygian": thesarusScales.extendedPhrygian,
+}
+
 // reducer
 const reducer = (state, action) => {
   switch (action.type) {
     case 'TOGGLE_MODE':
-      return action.payload === 'light' ? thesarusScales.extendedIonian : darkState
+      // return action.payload === 'light' ? thesarusScales.extendedIonian : darkState
+      return payloadMap[action.payload]
     default:
       return state
   }
