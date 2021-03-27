@@ -41,11 +41,8 @@ const extendedIonian = {
             note: 'C4',
             color: '#87FF65',
         },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#345995',
-        },
+
+
         {
             letter: 'a',
             note: 'C4',
@@ -1688,6 +1685,6 @@ const extended5thModeHarmonicMinor = {//TODO:
         }
     ]
 }
-export {
+export default {
     extendedIonian
 }

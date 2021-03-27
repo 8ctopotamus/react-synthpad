@@ -99,7 +99,7 @@ const { Provider } = AppContext
 const reducer = (state, action) => {
   switch (action.type) {
     case 'TOGGLE_MODE':
-      return action.payload === 'light' ? lightState : darkState
+      return action.payload === 'light' ? thesarusScales.extendedIonian : darkState
     default:
       return state
   }
