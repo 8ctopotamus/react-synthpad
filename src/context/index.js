@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer } from 'react'
-
+import thesarusScales from "./thesarusScales"
 const lightState = {
   mode: 'light',
   notes: [
@@ -30,17 +30,17 @@ const lightState = {
     },
     {
       letter: 'h',
-      note:  'A4',
+      note: 'A4',
       color: '#DABECA',
     },
     {
       letter: 'j',
-      note:  'B4',
+      note: 'B4',
       color: '#ACACDE',
-    }, 
+    },
     {
       letter: 'k',
-      note:  'C5',
+      note: 'C5',
       color: '#87FF65',
     }
   ]
@@ -76,17 +76,17 @@ const darkState = {
     },
     {
       letter: 'h',
-      note:  'C5',
+      note: 'C5',
       color: '#fb4d3d',
     },
     {
       letter: 'j',
-      note:  'D5',
+      note: 'D5',
       color: '#3EAB3B',
-    }, 
+    },
     {
       letter: 'k',
-      note:  'E5',
+      note: 'E5',
       color: '#03cea4',
     }
   ]
@@ -97,7 +97,7 @@ const { Provider } = AppContext
 
 // reducer
 const reducer = (state, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case 'TOGGLE_MODE':
       return action.payload === 'light' ? lightState : darkState
     default:
@@ -109,7 +109,7 @@ const reducer = (state, action) => {
 const AppContextProvider = props => {
   const [state, dispatch] = useReducer(reducer, lightState)
 
-  return <Provider value={{state, dispatch}}>{props.children}</Provider>
+  return <Provider value={{ state, dispatch }}>{props.children}</Provider>
 }
 
 // helper
