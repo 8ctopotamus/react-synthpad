@@ -16,13 +16,25 @@ export default () => {
     >
       <option value="light">Light</option>
       <option value="dark">Dark</option>
-      <option value="Ionian">Ionian</option>
-      <option value="Dorian">Dorian</option>
-      <option value="Phrygian">Phrygian</option>
-      <option value="Lydian">Lydian</option>
-      <option value="Mixolydian">Mixolydian</option>
-      <option value="Aeolian">Aeolian</option>
-      <option value="Locrian">Locrian</option>
+      <optgroup label="MajorModes">
+        <option value="Ionian">Ionian</option>
+        <option value="Dorian">Dorian</option>
+        <option value="Phrygian">Phrygian</option>
+        <option value="Lydian">Lydian</option>
+        <option value="Mixolydian">Mixolydian</option>
+        <option value="Aeolian">Aeolian</option>
+        <option value="Locrian">Locrian</option>
+      </optgroup>
+      <optgroup label="OtherModes">
+        <option value="Blues">Blues</option>
+        <option value="Superlocrian">Superlocrian</option>
+        <option value="Dorian">Dorian</option>
+        <option value="Phrygian">Phrygian</option>
+        <option value="Lydian">Lydian</option>
+        <option value="Mixolydian">Mixolydian</option>
+        <option value="Aeolian">Aeolian</option>
+      </optgroup>
+b
     </select>
   )
 }

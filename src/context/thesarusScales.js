@@ -873,27 +873,27 @@ const extendedLocrian = {
         }
     ]
 }
-const extendedBlues = {//TODO:
+const extendedBlues = {
     mode: 'dark',
     notes: [
         {
             letter: 'z',
             note: 'C3',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'x',
-            note: 'D3',
+            note: 'Eb3',
             color: '#451e3e',
         },
         {
             letter: 'c',
-            note: 'E3',
+            note: 'F3',
             color: '#651e3e',
         },
         {
             letter: 'v',
-            note: 'F3',
+            note: 'F#3',
             color: '#851e3e',
         },
         {
@@ -903,12 +903,137 @@ const extendedBlues = {//TODO:
         },
         {
             letter: 'n',
-            note: 'A3',
+            note: 'Bb3',
             color: '#fb4d3d',
         },
         {
             letter: 'm',
-            note: 'B3',
+            note: 'C4',
+            color: '#3EAB3B',
+        },
+        {
+            letter: ',',
+            note: 'Eb4',
+            color: '#03cea4',
+        },
+        {
+            letter: 'a',
+            note: 'C4',
+            color: '#345995',
+        },
+        {
+            letter: 's',
+            note: 'Eb4',
+            color: '#451e3e',
+        },
+        {
+            letter: 'd',
+            note: 'F4',
+            color: '#651e3e',
+        },
+        {
+            letter: 'f',
+            note: 'F#4',
+            color: '#851e3e',
+        },
+        {
+            letter: 'g',
+            note: 'G4',
+            color: '#007a80',
+        },
+        {
+            letter: 'h',
+            note: 'Bb4',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'j',
+            note: 'C5',
+            color: '#3EAB3B',
+        },
+        {
+            letter: 'k',
+            note: 'Eb5',
+            color: '#03cea4',
+        },
+        {
+            letter: 'q',
+            note: 'C5',
+            color: '#345995',
+        },
+        {
+            letter: 'w',
+            note: 'Eb5',
+            color: '#451e3e',
+        },
+        {
+            letter: 'e',
+            note: 'F5',
+            color: '#651e3e',
+        },
+        {
+            letter: 'r',
+            note: 'F#5',
+            color: '#851e3e',
+        },
+        {
+            letter: 't',
+            note: 'G5',
+            color: '#007a80',
+        },
+        {
+            letter: 'y',
+            note: 'Bb5',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'u',
+            note: 'B5',
+            color: '#3EAB3B',
+        },
+        {
+            letter: 'i',
+            note: 'C6',
+            color: '#03cea4',
+        }
+    ]
+}
+const extendedSuperLocrian = {
+    mode: 'dark',
+    notes: [
+        {
+            letter: 'z',
+            note: 'C3',
+            color: '#345995',
+        },
+        {
+            letter: 'x',
+            note: 'Db3',
+            color: '#451e3e',
+        },
+        {
+            letter: 'c',
+            note: 'Eb3',
+            color: '#651e3e',
+        },
+        {
+            letter: 'v',
+            note: 'Fb3',
+            color: '#851e3e',
+        },
+        {
+            letter: 'b',
+            note: 'Gb3',
+            color: '#007a80',
+        },
+        {
+            letter: 'n',
+            note: 'Ab3',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'm',
+            note: 'Bb3',
             color: '#3EAB3B',
         },
         {
@@ -919,41 +1044,36 @@ const extendedBlues = {//TODO:
         {
             letter: 'a',
             note: 'C4',
-            color: '#251e3e',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
             color: '#345995',
         },
         {
             letter: 's',
-            note: 'D4',
+            note: 'Db4',
             color: '#451e3e',
         },
         {
             letter: 'd',
-            note: 'E4',
+            note: 'Eb4',
             color: '#651e3e',
         },
         {
             letter: 'f',
-            note: 'F4',
+            note: 'Fb4',
             color: '#851e3e',
         },
         {
             letter: 'g',
-            note: 'G4',
+            note: 'Gb4',
             color: '#007a80',
         },
         {
             letter: 'h',
-            note: 'A4',
+            note: 'Ab4',
             color: '#fb4d3d',
         },
         {
             letter: 'j',
-            note: 'B4',
+            note: 'Bb4',
             color: '#3EAB3B',
         },
         {
@@ -964,36 +1084,36 @@ const extendedBlues = {//TODO:
         {
             letter: 'q',
             note: 'C5',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'w',
-            note: 'D5',
+            note: 'Db5',
             color: '#451e3e',
         },
         {
             letter: 'e',
-            note: 'E5',
+            note: 'Eb5',
             color: '#651e3e',
         },
         {
             letter: 'r',
-            note: 'F5',
+            note: 'Fb5',
             color: '#851e3e',
         },
         {
             letter: 't',
-            note: 'G5',
+            note: 'Gb5',
             color: '#007a80',
         },
         {
             letter: 'y',
-            note: 'A5',
+            note: 'Ab5',
             color: '#fb4d3d',
         },
         {
             letter: 'u',
-            note: 'B5',
+            note: 'Bb5',
             color: '#3EAB3B',
         },
         {
@@ -1133,7 +1253,7 @@ const extendedMinorBebop = {//TODO:
         }
     ]
 }
-const extendedSuperLocrian = {//TODO:
+const extendedSomthingElse = {//TODO:
     mode: 'dark',
     notes: [
         {
@@ -1660,6 +1780,8 @@ export default {
     extendedLydian,
     extendedMixolydian,
     extendedAeolian,
-    extendedLocrian
+    extendedLocrian,
+    extendedBlues,
+    extendedSuperLocrian
 
 }
