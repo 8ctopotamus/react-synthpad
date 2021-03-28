@@ -19,6 +19,10 @@ export default () => {
       <option value="Ionian">Ionian</option>
       <option value="Dorian">Dorian</option>
       <option value="Phrygian">Phrygian</option>
+      <option value="Lydian">Lydian</option>
+      <option value="Mixolydian">Mixolydian</option>
+      <option value="Aeolian">Aeolian</option>
+      <option value="Locrian">Locrian</option>
     </select>
   )
 }

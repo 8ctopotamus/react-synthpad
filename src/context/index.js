@@ -101,6 +101,10 @@ const payloadMap = {
   "Ionian": thesarusScales.extendedIonian,
   "Dorian": thesarusScales.extendedDorian,
   "Phrygian": thesarusScales.extendedPhrygian,
+  "Lydian": thesarusScales.extendedLydian,
+  "Mixolydian": thesarusScales.extendedMixolydian,
+  "Aeolian": thesarusScales.extendedAeolian,
+  "Locrian": thesarusScales.extendedLocrian,
 }
 
 // reducer

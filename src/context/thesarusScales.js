@@ -373,13 +373,263 @@ const extendedPhrygian = {
         }
     ]
 }
-const extendedAeolian = {//TODO:
+const extendedLydian = {
+    mode: 'light',
+    notes: [
+        {
+            letter: 'z',
+            note: 'C3',
+            color: '#345995',
+        },
+        {
+            letter: 'x',
+            note: 'D3',
+            color: '#e40066',
+        },
+        {
+            letter: 'c',
+            note: 'E3',
+            color: '#03cea4',
+        },
+        {
+            letter: 'v',
+            note: 'F#3',
+            color: '#f4b333',
+        },
+        {
+            letter: 'b',
+            note: 'G3',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'n',
+            note: 'A3',
+            color: '#DABECA',
+        },
+        {
+            letter: 'm',
+            note: 'B3',
+            color: '#ACACDE',
+        },
+        {
+            letter: ',',
+            note: 'C4',
+            color: '#87FF65',
+        },
+        {
+            letter: 'a',
+            note: 'C4',
+            color: '#345995',
+        },
+        {
+            letter: 's',
+            note: 'D4',
+            color: '#e40066',
+        },
+        {
+            letter: 'd',
+            note: 'E4',
+            color: '#03cea4',
+        },
+        {
+            letter: 'f',
+            note: 'F#4',
+            color: '#f4b333',
+        },
+        {
+            letter: 'g',
+            note: 'G4',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'h',
+            note: 'A4',
+            color: '#DABECA',
+        },
+        {
+            letter: 'j',
+            note: 'B4',
+            color: '#ACACDE',
+        },
+        {
+            letter: 'k',
+            note: 'C5',
+            color: '#87FF65',
+        },
+        {
+            letter: 'q',
+            note: 'C5',
+            color: '#345995',
+        },
+        {
+            letter: 'w',
+            note: 'D5',
+            color: '#e40066',
+        },
+        {
+            letter: 'e',
+            note: 'E5',
+            color: '#03cea4',
+        },
+        {
+            letter: 'r',
+            note: 'F#5',
+            color: '#f4b333',
+        },
+        {
+            letter: 't',
+            note: 'G5',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'y',
+            note: 'A5',
+            color: '#DABECA',
+        },
+        {
+            letter: 'u',
+            note: 'B5',
+            color: '#ACACDE',
+        },
+        {
+            letter: 'i',
+            note: 'C6',
+            color: '#87FF65',
+        }
+    ]
+}
+const extendedMixolydian = {
+    mode: 'light',
+    notes: [
+        {
+            letter: 'z',
+            note: 'C3',
+            color: '#345995',
+        },
+        {
+            letter: 'x',
+            note: 'D3',
+            color: '#e40066',
+        },
+        {
+            letter: 'c',
+            note: 'E3',
+            color: '#03cea4',
+        },
+        {
+            letter: 'v',
+            note: 'F3',
+            color: '#f4b333',
+        },
+        {
+            letter: 'b',
+            note: 'G3',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'n',
+            note: 'A3',
+            color: '#DABECA',
+        },
+        {
+            letter: 'm',
+            note: 'Bb3',
+            color: '#ACACDE',
+        },
+        {
+            letter: ',',
+            note: 'C4',
+            color: '#87FF65',
+        },
+        {
+            letter: 'a',
+            note: 'C4',
+            color: '#345995',
+        },
+        {
+            letter: 's',
+            note: 'D4',
+            color: '#e40066',
+        },
+        {
+            letter: 'd',
+            note: 'E4',
+            color: '#03cea4',
+        },
+        {
+            letter: 'f',
+            note: 'F4',
+            color: '#f4b333',
+        },
+        {
+            letter: 'g',
+            note: 'G4',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'h',
+            note: 'A4',
+            color: '#DABECA',
+        },
+        {
+            letter: 'j',
+            note: 'Bb4',
+            color: '#ACACDE',
+        },
+        {
+            letter: 'k',
+            note: 'C5',
+            color: '#87FF65',
+        },
+        {
+            letter: 'q',
+            note: 'C5',
+            color: '#345995',
+        },
+        {
+            letter: 'w',
+            note: 'D5',
+            color: '#e40066',
+        },
+        {
+            letter: 'e',
+            note: 'E5',
+            color: '#03cea4',
+        },
+        {
+            letter: 'r',
+            note: 'F5',
+            color: '#f4b333',
+        },
+        {
+            letter: 't',
+            note: 'G5',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'y',
+            note: 'A5',
+            color: '#DABECA',
+        },
+        {
+            letter: 'u',
+            note: 'Bb5',
+            color: '#ACACDE',
+        },
+        {
+            letter: 'i',
+            note: 'C6',
+            color: '#87FF65',
+        }
+    ]
+}
+const extendedAeolian = {
     mode: 'dark',
     notes: [
         {
             letter: 'z',
             note: 'C3',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'x',
@@ -388,7 +638,7 @@ const extendedAeolian = {//TODO:
         },
         {
             letter: 'c',
-            note: 'E3',
+            note: 'Eb3',
             color: '#651e3e',
         },
         {
@@ -403,23 +653,18 @@ const extendedAeolian = {//TODO:
         },
         {
             letter: 'n',
-            note: 'A3',
+            note: 'Ab3',
             color: '#fb4d3d',
         },
         {
             letter: 'm',
-            note: 'B3',
+            note: 'Bb3',
             color: '#3EAB3B',
         },
         {
             letter: ',',
             note: 'C4',
             color: '#03cea4',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#251e3e',
         },
         {
             letter: 'a',
@@ -433,7 +678,7 @@ const extendedAeolian = {//TODO:
         },
         {
             letter: 'd',
-            note: 'E4',
+            note: 'Eb4',
             color: '#651e3e',
         },
         {
@@ -448,12 +693,12 @@ const extendedAeolian = {//TODO:
         },
         {
             letter: 'h',
-            note: 'A4',
+            note: 'Ab4',
             color: '#fb4d3d',
         },
         {
             letter: 'j',
-            note: 'B4',
+            note: 'Bb4',
             color: '#3EAB3B',
         },
         {
@@ -464,7 +709,7 @@ const extendedAeolian = {//TODO:
         {
             letter: 'q',
             note: 'C5',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'w',
@@ -473,7 +718,7 @@ const extendedAeolian = {//TODO:
         },
         {
             letter: 'e',
-            note: 'E5',
+            note: 'Eb5',
             color: '#651e3e',
         },
         {
@@ -488,12 +733,12 @@ const extendedAeolian = {//TODO:
         },
         {
             letter: 'y',
-            note: 'A5',
+            note: 'Ab5',
             color: '#fb4d3d',
         },
         {
             letter: 'u',
-            note: 'B5',
+            note: 'Bb5',
             color: '#3EAB3B',
         },
         {
@@ -503,22 +748,22 @@ const extendedAeolian = {//TODO:
         }
     ]
 }
-const extendedLocrian = {//TODO:
+const extendedLocrian = {
     mode: 'dark',
     notes: [
         {
             letter: 'z',
             note: 'C3',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'x',
-            note: 'D3',
+            note: 'Db3',
             color: '#451e3e',
         },
         {
             letter: 'c',
-            note: 'E3',
+            note: 'Eb3',
             color: '#651e3e',
         },
         {
@@ -528,17 +773,17 @@ const extendedLocrian = {//TODO:
         },
         {
             letter: 'b',
-            note: 'G3',
+            note: 'Gb3',
             color: '#007a80',
         },
         {
             letter: 'n',
-            note: 'A3',
+            note: 'Ab3',
             color: '#fb4d3d',
         },
         {
             letter: 'm',
-            note: 'B3',
+            note: 'Bb3',
             color: '#3EAB3B',
         },
         {
@@ -549,21 +794,16 @@ const extendedLocrian = {//TODO:
         {
             letter: 'a',
             note: 'C4',
-            color: '#251e3e',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
             color: '#345995',
         },
         {
             letter: 's',
-            note: 'D4',
+            note: 'Db4',
             color: '#451e3e',
         },
         {
             letter: 'd',
-            note: 'E4',
+            note: 'Eb4',
             color: '#651e3e',
         },
         {
@@ -573,17 +813,17 @@ const extendedLocrian = {//TODO:
         },
         {
             letter: 'g',
-            note: 'G4',
+            note: 'Gb4',
             color: '#007a80',
         },
         {
             letter: 'h',
-            note: 'A4',
+            note: 'Ab4',
             color: '#fb4d3d',
         },
         {
             letter: 'j',
-            note: 'B4',
+            note: 'Bb4',
             color: '#3EAB3B',
         },
         {
@@ -594,16 +834,16 @@ const extendedLocrian = {//TODO:
         {
             letter: 'q',
             note: 'C5',
-            color: '#251e3e',
+            color: '#345995',
         },
         {
             letter: 'w',
-            note: 'D5',
+            note: 'Db5',
             color: '#451e3e',
         },
         {
             letter: 'e',
-            note: 'E5',
+            note: 'Eb5',
             color: '#651e3e',
         },
         {
@@ -613,17 +853,17 @@ const extendedLocrian = {//TODO:
         },
         {
             letter: 't',
-            note: 'G5',
+            note: 'Gb5',
             color: '#007a80',
         },
         {
             letter: 'y',
-            note: 'A5',
+            note: 'Ab5',
             color: '#fb4d3d',
         },
         {
             letter: 'u',
-            note: 'B5',
+            note: 'Bb5',
             color: '#3EAB3B',
         },
         {
@@ -1023,266 +1263,6 @@ const extendedSuperLocrian = {//TODO:
         }
     ]
 }
-const extendedLydian = {//TODO:
-    mode: 'light',
-    notes: [
-        {
-            letter: 'z',
-            note: 'C3',
-            color: '#345995',
-        },
-        {
-            letter: 'x',
-            note: 'D3',
-            color: '#e40066',
-        },
-        {
-            letter: 'c',
-            note: 'E3',
-            color: '#03cea4',
-        },
-        {
-            letter: 'v',
-            note: 'F3',
-            color: '#f4b333',
-        },
-        {
-            letter: 'b',
-            note: 'G3',
-            color: '#fb4d3d',
-        },
-        {
-            letter: 'n',
-            note: 'A3',
-            color: '#DABECA',
-        },
-        {
-            letter: 'm',
-            note: 'B3',
-            color: '#ACACDE',
-        },
-        {
-            letter: ',',
-            note: 'C4',
-            color: '#87FF65',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#345995',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#345995',
-        },
-        {
-            letter: 's',
-            note: 'D4',
-            color: '#e40066',
-        },
-        {
-            letter: 'd',
-            note: 'E4',
-            color: '#03cea4',
-        },
-        {
-            letter: 'f',
-            note: 'F4',
-            color: '#f4b333',
-        },
-        {
-            letter: 'g',
-            note: 'G4',
-            color: '#fb4d3d',
-        },
-        {
-            letter: 'h',
-            note: 'A4',
-            color: '#DABECA',
-        },
-        {
-            letter: 'j',
-            note: 'B4',
-            color: '#ACACDE',
-        },
-        {
-            letter: 'k',
-            note: 'C5',
-            color: '#87FF65',
-        },
-        {
-            letter: 'q',
-            note: 'C5',
-            color: '#345995',
-        },
-        {
-            letter: 'w',
-            note: 'D5',
-            color: '#e40066',
-        },
-        {
-            letter: 'e',
-            note: 'E5',
-            color: '#03cea4',
-        },
-        {
-            letter: 'r',
-            note: 'F5',
-            color: '#f4b333',
-        },
-        {
-            letter: 't',
-            note: 'G5',
-            color: '#fb4d3d',
-        },
-        {
-            letter: 'y',
-            note: 'A5',
-            color: '#DABECA',
-        },
-        {
-            letter: 'u',
-            note: 'B5',
-            color: '#ACACDE',
-        },
-        {
-            letter: 'i',
-            note: 'C6',
-            color: '#87FF65',
-        }
-    ]
-}
-const extendedMixolydian = {//TODO:
-    mode: 'light',
-    notes: [
-        {
-            letter: 'z',
-            note: 'C3',
-            color: '#345995',
-        },
-        {
-            letter: 'x',
-            note: 'D3',
-            color: '#e40066',
-        },
-        {
-            letter: 'c',
-            note: 'E3',
-            color: '#03cea4',
-        },
-        {
-            letter: 'v',
-            note: 'F3',
-            color: '#f4b333',
-        },
-        {
-            letter: 'b',
-            note: 'G3',
-            color: '#fb4d3d',
-        },
-        {
-            letter: 'n',
-            note: 'A3',
-            color: '#DABECA',
-        },
-        {
-            letter: 'm',
-            note: 'B3',
-            color: '#ACACDE',
-        },
-        {
-            letter: ',',
-            note: 'C4',
-            color: '#87FF65',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#345995',
-        },
-        {
-            letter: 'a',
-            note: 'C4',
-            color: '#345995',
-        },
-        {
-            letter: 's',
-            note: 'D4',
-            color: '#e40066',
-        },
-        {
-            letter: 'd',
-            note: 'E4',
-            color: '#03cea4',
-        },
-        {
-            letter: 'f',
-            note: 'F4',
-            color: '#f4b333',
-        },
-        {
-            letter: 'g',
-            note: 'G4',
-            color: '#fb4d3d',
-        },
-        {
-            letter: 'h',
-            note: 'A4',
-            color: '#DABECA',
-        },
-        {
-            letter: 'j',
-            note: 'B4',
-            color: '#ACACDE',
-        },
-        {
-            letter: 'k',
-            note: 'C5',
-            color: '#87FF65',
-        },
-        {
-            letter: 'q',
-            note: 'C5',
-            color: '#345995',
-        },
-        {
-            letter: 'w',
-            note: 'D5',
-            color: '#e40066',
-        },
-        {
-            letter: 'e',
-            note: 'E5',
-            color: '#03cea4',
-        },
-        {
-            letter: 'r',
-            note: 'F5',
-            color: '#f4b333',
-        },
-        {
-            letter: 't',
-            note: 'G5',
-            color: '#fb4d3d',
-        },
-        {
-            letter: 'y',
-            note: 'A5',
-            color: '#DABECA',
-        },
-        {
-            letter: 'u',
-            note: 'B5',
-            color: '#ACACDE',
-        },
-        {
-            letter: 'i',
-            note: 'C6',
-            color: '#87FF65',
-        }
-    ]
-}
 const extendedSousa = {//TODO:
     mode: 'light',
     notes: [
@@ -1677,5 +1657,9 @@ export default {
     extendedIonian,
     extendedDorian,
     extendedPhrygian,
+    extendedLydian,
+    extendedMixolydian,
+    extendedAeolian,
+    extendedLocrian
 
 }
