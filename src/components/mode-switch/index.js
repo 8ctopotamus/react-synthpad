@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAppContext } from '../../context'
+//import { keys } from "../utils/thesarusScales" //I would iterate over them, but the optgroups are nice
 
 const styles = {
   marginBottom: 20
@@ -29,7 +30,7 @@ export default () => {
         <option value="Blues">Blues</option>
         <option value="Superlocrian">Superlocrian</option>
         <option value="LydianDominant">LydianDominant</option>
-        <option value="FifthModeMelodicMinor">FifthModeMelodicMinor</option>
+        <option value="FifthModeHarmonicMinor">FifthModeHarmonicMinor</option>
       </optgroup>
       <optgroup label="EightNoteScales">
         <option value="MinorBebop">MinorBebop</option>

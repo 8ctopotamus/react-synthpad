@@ -1,3 +1,94 @@
+const lightState = {
+    mode: 'light',
+    notes: [
+        {
+            letter: 'a',
+            note: 'C4',
+            color: '#345995',
+        },
+        {
+            letter: 's',
+            note: 'D4',
+            color: '#e40066',
+        },
+        {
+            letter: 'd',
+            note: 'E4',
+            color: '#03cea4',
+        },
+        {
+            letter: 'f',
+            note: 'F4',
+            color: '#f4b333',
+        },
+        {
+            letter: 'g',
+            note: 'G4',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'h',
+            note: 'A4',
+            color: '#DABECA',
+        },
+        {
+            letter: 'j',
+            note: 'B4',
+            color: '#ACACDE',
+        },
+        {
+            letter: 'k',
+            note: 'C5',
+            color: '#87FF65',
+        }
+    ]
+}
+
+const darkState = {
+    mode: 'dark',
+    notes: [
+        {
+            letter: 'a',
+            note: 'E4',
+            color: '#251e3e',
+        },
+        {
+            letter: 's',
+            note: 'F#4',
+            color: '#451e3e',
+        },
+        {
+            letter: 'd',
+            note: 'G4',
+            color: '#651e3e',
+        },
+        {
+            letter: 'f',
+            note: 'A4',
+            color: '#851e3e',
+        },
+        {
+            letter: 'g',
+            note: 'B4',
+            color: '#007a80',
+        },
+        {
+            letter: 'h',
+            note: 'C5',
+            color: '#fb4d3d',
+        },
+        {
+            letter: 'j',
+            note: 'D5',
+            color: '#3EAB3B',
+        },
+        {
+            letter: 'k',
+            note: 'E5',
+            color: '#03cea4',
+        }
+    ]
+}
 const extendedIonian = {
     mode: 'light',
     notes: [
@@ -995,7 +1086,12 @@ const extendedBlues = {
             letter: 'i',
             note: 'C6',
             color: '#03cea4',
-        }
+        },
+        {
+            letter: 'o',
+            note: 'Eb6',
+            color: '#345995',
+        },
     ]
 }
 const extendedSuperLocrian = {
@@ -1259,127 +1355,127 @@ const extendedSousa = {
         {
             letter: 'z',
             note: 'C3',
-            color: '#345995',
+            color: 'red',
         },
         {
             letter: 'x',
             note: 'D3',
-            color: '#e40066',
+            color: 'white',
         },
         {
             letter: 'c',
             note: 'E3',
-            color: '#03cea4',
+            color: 'blue',
         },
         {
             letter: 'v',
             note: 'F3',
-            color: '#f4b333',
+            color: 'red',
         },
         {
             letter: 'b',
             note: 'G3',
-            color: '#fb4d3d',
+            color: 'white',
         },
         {
             letter: 'n',
             note: 'A3',
-            color: '#DABECA',
+            color: 'blue',
         },
         {
             letter: 'm',
             note: 'Bb3',
-            color: '#ACACDE',
+            color: 'red',
         },
         {
             letter: ',',
             note: 'B3',
-            color: '#87FF65',
+            color: 'white',
         },
         {
             letter: 'a',
             note: 'C4',
-            color: '#345995',
+            color: 'blue',
         },
         {
             letter: 's',
             note: 'D4',
-            color: '#e40066',
+            color: 'red',
         },
         {
             letter: 'd',
             note: 'E4',
-            color: '#03cea4',
+            color: 'white',
         },
         {
             letter: 'f',
             note: 'F4',
-            color: '#f4b333',
+            color: 'blue',
         },
         {
             letter: 'g',
             note: 'G4',
-            color: '#fb4d3d',
+            color: 'red',
         },
         {
             letter: 'h',
             note: 'A4',
-            color: '#DABECA',
+            color: 'white',
         },
         {
             letter: 'j',
             note: 'Bb4',
-            color: '#ACACDE',
+            color: 'blue',
         },
         {
             letter: 'k',
             note: 'B4',
-            color: '#87FF65',
+            color: 'red',
         },
         {
             letter: 'q',
             note: 'C5',
-            color: '#345995',
+            color: 'white',
         },
         {
             letter: 'w',
             note: 'D5',
-            color: '#e40066',
+            color: 'blue',
         },
         {
             letter: 'e',
             note: 'E5',
-            color: '#03cea4',
+            color: 'red',
         },
         {
             letter: 'r',
             note: 'F5',
-            color: '#f4b333',
+            color: 'white',
         },
         {
             letter: 't',
             note: 'G5',
-            color: '#fb4d3d',
+            color: 'blue',
         },
         {
             letter: 'y',
             note: 'A5',
-            color: '#DABECA',
+            color: 'red',
         },
         {
             letter: 'u',
             note: 'Bb5',
-            color: '#ACACDE',
+            color: 'white',
         },
         {
             letter: 'i',
             note: 'B5',
-            color: '#87FF65',
+            color: 'blue',
         },
         {
             letter: 'o',
             note: 'C6',
-            color: '#345995',
+            color: 'red',
         },
     ]
 }
@@ -1763,19 +1859,23 @@ const extendedFifthModeHarmonicMinor = {
         }
     ]
 }
-export default {
-    extendedIonian,
-    extendedDorian,
-    extendedPhrygian,
-    extendedLydian,
-    extendedMixolydian,
-    extendedAeolian,
-    extendedLocrian,
-    extendedBlues,
-    extendedSuperLocrian,
-    extendedMinorBebop,
-    extendedSousa,
-    extendedDiminished,
-    extendedLydianDominant,
-    extendedFMMM: extendedFifthModeHarmonicMinor
+export const payloadMap = {
+    "light": lightState,
+    "dark": darkState,
+    "Ionian": extendedIonian,
+    "Dorian": extendedDorian,
+    "Phrygian": extendedPhrygian,
+    "Lydian": extendedLydian,
+    "Mixolydian": extendedMixolydian,
+    "Aeolian": extendedAeolian,
+    "Locrian": extendedLocrian,
+    "Blues": extendedBlues,
+    "Superlocrian": extendedSuperLocrian,
+    "LydianDominant": extendedLydianDominant,
+    "FifthModeMelodicMinor": extendedFifthModeHarmonicMinor,
+    "MinorBebop": extendedMinorBebop,
+    "SousaBebop": extendedSousa,
+    "Diminished": extendedDiminished,
 }
+//const keys = Object.keys(payloadMap)
+

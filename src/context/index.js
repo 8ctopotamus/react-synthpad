@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer } from 'react'
-import thesarusScales from "./thesarusScales"
+import { payloadMap } from "../utils/thesarusScales"
 const lightState = {
   mode: 'light',
   notes: [
@@ -95,30 +95,10 @@ const darkState = {
 const AppContext = createContext(lightState)
 const { Provider } = AppContext
 
-const payloadMap = {
-  "light": lightState,
-  "dark": darkState,
-  "Ionian": thesarusScales.extendedIonian,
-  "Dorian": thesarusScales.extendedDorian,
-  "Phrygian": thesarusScales.extendedPhrygian,
-  "Lydian": thesarusScales.extendedLydian,
-  "Mixolydian": thesarusScales.extendedMixolydian,
-  "Aeolian": thesarusScales.extendedAeolian,
-  "Locrian": thesarusScales.extendedLocrian,
-  "Blues": thesarusScales.extendedBlues,
-  "Superlocrian": thesarusScales.extendedSuperLocrian,
-  "LydianDominant": thesarusScales.extendedLydianDominant,
-  "FifthModeMelodicMinor": thesarusScales.extendedFMMM,
-  "MinorBebop": thesarusScales.extendedMinorBebop,
-  "SousaBebop": thesarusScales.extendedSousa,
-  "Diminished": thesarusScales.extendedDiminished,
-}
-
 // reducer
 const reducer = (state, action) => {
   switch (action.type) {
     case 'TOGGLE_MODE':
-      // return action.payload === 'light' ? thesarusScales.extendedIonian : darkState
       return payloadMap[action.payload]
     default:
       return state
