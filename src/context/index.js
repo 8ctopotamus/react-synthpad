@@ -107,6 +107,11 @@ const payloadMap = {
   "Locrian": thesarusScales.extendedLocrian,
   "Blues": thesarusScales.extendedBlues,
   "Superlocrian": thesarusScales.extendedSuperLocrian,
+  "LydianDominant": thesarusScales.extendedLydianDominant,
+  "FifthModeMelodicMinor": thesarusScales.extendedFMMM,
+  "MinorBebop": thesarusScales.extendedMinorBebop,
+  "SousaBebop": thesarusScales.extendedSousa,
+  "Diminished": thesarusScales.extendedDiminished,
 }
 
 // reducer

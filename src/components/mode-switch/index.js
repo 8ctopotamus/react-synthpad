@@ -28,11 +28,13 @@ export default () => {
       <optgroup label="OtherModes">
         <option value="Blues">Blues</option>
         <option value="Superlocrian">Superlocrian</option>
-        <option value="Dorian">Dorian</option>
-        <option value="Phrygian">Phrygian</option>
-        <option value="Lydian">Lydian</option>
-        <option value="Mixolydian">Mixolydian</option>
-        <option value="Aeolian">Aeolian</option>
+        <option value="LydianDominant">LydianDominant</option>
+        <option value="FifthModeMelodicMinor">FifthModeMelodicMinor</option>
+      </optgroup>
+      <optgroup label="EightNoteScales">
+        <option value="MinorBebop">MinorBebop</option>
+        <option value="SousaBebop">SousaBebop</option>
+        <option value="Diminished">Diminished</option>
       </optgroup>
 b
     </select>
